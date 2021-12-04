@@ -1,11 +1,10 @@
 /** Day 3: Giant Squid
  * https://adventofcode.com/2021/day/4
 
-Part one: What is the power consumption of the submarine? (in decimal)
-Part two: Determined the product of the oxygen generator rating and the CO2 scrubber rating.
+Part one: Which board will win first? Return its score.
+Part two: Which board will win last? Return its score.
 */
 
-const { checkPrime } = require('crypto');
 const {
   datefy
 } = require('./utils');

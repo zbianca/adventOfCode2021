@@ -49,7 +49,7 @@ function getValues(report) {
 }
 
 console.log(getValues(example)); // -> 198
-console.log(getValues(data));
+console.log(getValues(data)); // -> 749376
 
 function filterData(report) {
   let statsO2 = getReportSummary(report);
@@ -85,4 +85,4 @@ function filterData(report) {
 
 
 console.log(filterData(example)); // -> 230
-console.log(filterData(data));
+console.log(filterData(data)); // -> 2372923

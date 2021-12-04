@@ -31,7 +31,7 @@ function getPosition(directions) {
 }
 
 console.log(getPosition(example)); // -> 150
-console.log(getPosition(data));
+console.log(getPosition(data)); // -> 1924923
 
 function getAdjustedPosition(directions) {
   let a = 0;
@@ -51,4 +51,4 @@ function getAdjustedPosition(directions) {
 }
 
 console.log(getAdjustedPosition(example)); // -> 900
-console.log(getAdjustedPosition(data));
+console.log(getAdjustedPosition(data)); // -> 1982495697

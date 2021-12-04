@@ -24,7 +24,7 @@ function countIncreases(arr) {
 }
 
 console.log(countIncreases(example)); // -> 7
-console.log(countIncreases(data));
+console.log(countIncreases(data)); // -> 1564
 
 function countWindowIncreases(arr) {
   let count = 0;
@@ -40,4 +40,4 @@ function countWindowIncreases(arr) {
 }
 
 console.log(countWindowIncreases(example)); // -> 5
-console.log(countWindowIncreases(data));
+console.log(countWindowIncreases(data)); // -> 1611
