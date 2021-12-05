@@ -1,4 +1,4 @@
-/** Day 3: Giant Squid
+/** Day 4: Giant Squid
  * https://adventofcode.com/2021/day/4
 
 Part one: Which board will win first? Return its score.
