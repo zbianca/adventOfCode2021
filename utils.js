@@ -23,6 +23,13 @@ exports.range = (from, to, step = 1) => {
 };
 
 /** @method
+ * Computes the number of values of the array, for which the predicate is true.
+ */
+ function count(predicate) {
+  return this.filter(predicate).length;
+}
+
+/** @method
  * Computes the maximum value of array. If array is empty, undefined is returned.
  * Accepts an optional defaultMax.
  */
@@ -52,6 +59,7 @@ function sumBy(fn, defaultVal = 0) {
   return this.map(fn).reduce((x, y) => x + y, defaultVal);
 }
 
+Array.prototype.count = count;
 Array.prototype.max = max;
 Array.prototype.min = min;
 Array.prototype.sum = sum;
