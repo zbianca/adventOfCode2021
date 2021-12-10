@@ -1,5 +1,5 @@
 /** Day 7: The Treachery of Whales
- * https://adventofcode.com/2021/day/6
+ * https://adventofcode.com/2021/day/7
 
 Part one: How much fuel must they spend to align to that position? (1 step costs 1 fuel)
 Part two: How much fuel must they spend to align to that position? (1 step costs 1 more unit of fuel than the last)
