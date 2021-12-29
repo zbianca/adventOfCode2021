@@ -38,8 +38,8 @@ function calcCorrupted(s) {
       else if (char === '{') stack.push('}');
       else if (char === '<') stack.push('>');
       else {
-          const next = stack.pop();
-          if (next !== char) return value[char];
+        const next = stack.pop();
+        if (next !== char) return value[char];
       }
   }
 
@@ -58,8 +58,8 @@ function incompleteStack(s) {
     else if (char === '{') stack.push('}');
     else if (char === '<') stack.push('>');
     else {
-        const next = stack.pop();
-        if (next !== char) return [];
+      const next = stack.pop();
+      if (next !== char) return [];
     }
 }
 
@@ -87,7 +87,6 @@ function score(arr) {
   arr.sort((a, b) => a - b);
   return arr[Math.floor(arr.length / 2)];
 }
-
 
 console.log(score(example)); // -> 288957
 console.log(score(data)); // -> 2776842859

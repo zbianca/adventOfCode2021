@@ -7,7 +7,7 @@ Part two: What do you get if you multiply together the sizes of the three larges
 
 const { datefy } = require("./utils");
 
-const data = datefy(9, (x) => x.split("").map((x) => parseInt(x)));
+const data = datefy(9, x => x.split("").map(x => parseInt(x)));
 
 const example = [
   [2, 1, 9, 9, 9, 4, 3, 2, 1, 0],
