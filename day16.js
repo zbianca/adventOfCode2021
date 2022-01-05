@@ -2,7 +2,7 @@
  * https://adventofcode.com/2021/day/16
 
 Part one: What do you get if you add up the version numbers in all packets?
-Part two:
+Part two: What do you get if you evaluate the expression represented by your hexadecimal-encoded BITS transmission?
 */
 
 const { datefy } = require("./utils");
